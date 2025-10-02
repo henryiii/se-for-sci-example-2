@@ -31,3 +31,6 @@ jobs:
       - name: Run the example with uv
         run: uv run --python=python se-for-sci-example-2
 
+      - name: Run the tests
+        run: uv run pytest
+
